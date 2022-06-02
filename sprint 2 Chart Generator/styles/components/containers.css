@@ -1,0 +1,51 @@
+.text-lines-actions-upper-container {
+    width: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.text-lines-actions-bottom-container {
+    width: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container {
+    position: absolute;
+    justify-content: center;
+    display: none;
+    top: 90px;
+    right: 0;
+    background: #1f2424;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+.grid-chart-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+
+.terms-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.terms-container {
+    margin-top: 10px;
+}
+
+.actions-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center
+}

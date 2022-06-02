@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Chart Generator</title>
+</head>
+
+
+<body onload="onInit()">
+    <header>
+        <div class="header-container">
+            <div class="logo">Data GIF Maker</div>
+            <nav class="nav-gallery" onclick="onBackToGallery()">Gallery</nav>
+        </div>
+    </header>
+    <section class="chart-gallery">
+        <section class="sort-gallery">
+            <h4> Sort By : </h4>
+            <select onchange="onSortGallery(this.value)">
+                <option value="newest">NEWEST</option>
+                <option value="aToZ">NAME</option>
+            </select>
+        </section>
+        <button class="btn-new-chart" onclick="onCreateNewChart()">+ CREATE A NEW CHART</button>
+        <section class="grid-chart-gallery"></section>
+    </section>
+    <section class="container">
+        <section class="chart-editor">
+            <div class="canvas-container">
+                <canvas id="my-canvas" height="600" width="700" ;></canvas>
+            </div>
+            <div class="text-editor">
+                <div class="text-editor-top-section"></div>
+                <div class="terms-container"></div>
+                <div class="actions-container">
+                    <button class="btn-add-term" onclick="onAddTerm()">+ ADD TERM </button>
+                    <button class="btn-upload-image" onclick="uploadImg()">Upload Image from Canvas</button>
+                    <a href="#" class="download" onclick="downloadCanvas(this)" download="">Download as jpg</a>
+                </div>
+                <p class="user-msg"></p>
+                <div class="share-container"></div>
+            </div>
+        </section>
+    </section>
+</body>
+<script src="js/chart-service.js"></script>
+<script src="js/chart-service.storage.js"></script>
+<script src="js/chart-upload-service.js"></script>
+<script src="js/chart-controller.js"></script>
+
+
+
+</html>

@@ -1,0 +1,136 @@
+
+
+
+canvas {
+    border: 1px solid black;
+    display: block;
+    margin: 0px 40px;
+    background-color: gray;
+    width: 400px;
+}
+
+
+
+
+.shareImage {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+
+
+
+
+.chart-editor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.remove-term {
+    cursor: pointer;
+
+}
+
+
+
+.text-editor-row {
+    width: fit-content;
+}
+
+input {
+    height: 30px;
+    width: 90px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+
+
+.inputs {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.title-editor {
+    margin: 15px;
+    width: 170px;
+    font-size: 1em;
+}
+
+
+
+.text-editor {
+    display: flex;
+    flex-direction: column;
+    background-color: #363431;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+
+.term {
+    background: #009688;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.gallery-item {
+    cursor: pointer;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(44 185 178);
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.sort-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+select {
+    height: 25px;
+    width: 84px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.chart-gallery {
+    display: grid;
+}
+
+.value-type {
+
+    color: #a8a9af;
+    font-family: sans-serif
+}
+
+
+
+.download {
+    font-size: 17px;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.download:hover {
+    background-color: gray;
+}

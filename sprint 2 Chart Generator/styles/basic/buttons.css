@@ -1,0 +1,97 @@
+.btn-remove-term {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.btn-theme {
+    cursor: pointer;
+    color: white;
+    background: none;
+    padding: 5px
+}
+
+.btn-grow-percent {
+    color: whitesmoke;
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+    padding: 9px;
+    width: 42px;
+    height: 40px;
+    border: solid 2px blue
+}
+
+
+.btn-grow-number {
+    color: whitesmoke;
+    cursor: pointer;
+    background: none;
+    border-radius: 50%;
+    padding: 9px;
+    width: 42px;
+    height: 40px;
+    border: solid 2px blue
+}
+
+
+.btn-new-chart {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: whitesmoke;
+    margin: auto;
+}
+
+.btn-save-chart {
+    cursor: pointer;
+    color: whitesmoke;
+    background: none;
+    height: 30px;
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+.btn-add-term {
+    height: 50px;
+    width: 110px;
+    border: none;
+    border-right: 15px solid red;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-add-term:hover {
+    background-color: gray;
+}
+
+.btn-upload-image {
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    background: none;
+    border: none;
+    border-right: 15px solid red;
+
+}
+
+.btn-upload-image:hover {
+    background-color: gray;
+}
+
+
+
+.btn-remove-chart {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+    font-size: 14px;
+    cursor: pointer;
+
+}
