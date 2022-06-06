@@ -1,0 +1,19 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background: #1f2424;
+}
+
+
+h4 {
+    font-size: 19px;
+    color: whitesmoke
+}
+
+
+
+p {
+    font-size: 14px;
+    color: #fff;
+}

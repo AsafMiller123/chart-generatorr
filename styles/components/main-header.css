@@ -1,0 +1,33 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(44 185 178 / 95%) 0%, rgb(65 227 197 / 79%) 35%, rgb(74 137 99) 100%);
+    height: 90px;
+    width: 100vw;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    font-size: 2em;
+    font-weight: 800;
+    font-family: emoji;
+    color: white;
+    margin: 15px;
+}
+
+
+
+.nav-gallery {
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    font-family: emoji;
+    background: white;
+    border-radius: 20px;
+    color: #9cc7ad;
+    padding: 10px;
+    margin: 15px;
+}
